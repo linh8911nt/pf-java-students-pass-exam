@@ -23,7 +23,7 @@ public class StudentsPassExam {
             students[i] = input.nextInt();
         }
 
-        //in ra danh sách sinh viên và đếm số lượng sinh viên thi đỗ
+        //in ra danh sách điểm sinh viên và đếm số lượng sinh viên thi đỗ
         int count = 0;
         for (int j = 0; j < students.length; j++){
             System.out.println("Điểm: " + students[j]);
